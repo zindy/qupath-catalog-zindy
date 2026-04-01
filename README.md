@@ -9,7 +9,7 @@ This catalog includes the following extensions:
 ### QuPath XGBoost extension
 XGBoost object classifier for QuPath.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.3
 - **Repository**: https://github.com/zindy/qupath-extension-xgboost
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/xgboost-extension-for-object-classification-qupath-0-7/119571
@@ -17,7 +17,7 @@ XGBoost object classifier for QuPath.
 ### QuPath NDPA extension
 Extension to import and export Hamamatsu annotations between NDP.View and QuPath.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.1
 - **Repository**: https://github.com/zindy/qupath-extension-ndpa
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-extension-ndpa-import-export-ndpa-annotations-from-qupath-now-as-an-extension/111858
@@ -25,7 +25,7 @@ Extension to import and export Hamamatsu annotations between NDP.View and QuPath
 ### QuPath MLD extension
 An extension to import Visiopharm MLD annotations into QuPath.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.1
 - **Repository**: https://github.com/zindy/qupath-extension-mld
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-extension-for-importing-visiopharm-mld-files-into-qupath-both-rois-labels/118475
@@ -48,7 +48,7 @@ Filename regex parser inspired by CellProfiler.
 ### QuPath OCR extension
 QuPath extension for optical character recognition (OCR) on slide labels via Tess4J / Tesseract.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.1
 - **Repository**: https://github.com/zindy/qupath-extension-ocr
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/how-to-read-tissue-slides-label-using-tesseract/114820/4
@@ -56,7 +56,7 @@ QuPath extension for optical character recognition (OCR) on slide labels via Tes
 ### QuPath BentoFX extension (experimental)
 This extension converts QuPath's dialogs and frames into dockable panels. It is very much a proof of concept: Not everything works as expected, so use it at your own risk but I would love to hear back from you if you encounter any issues!
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.2
 - **Repository**: https://github.com/zindy/qupath-extension-bentofx
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-gui-with-dockable-panels-experimental-proof-of-concept/115582
@@ -64,7 +64,7 @@ This extension converts QuPath's dialogs and frames into dockable panels. It is 
 ### QuPath JInput extension (experimental)
 This extension adds joysticks and spacemouse navigation to QuPath via JInput. It was originally written by @petebankhead.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.3.4
 - **Repository**: https://github.com/zindy/qupath-extension-jinput
 - **QuPath compatibility**: v0.7.0+
 
