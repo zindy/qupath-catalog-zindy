@@ -32,7 +32,7 @@
       "releases": [
         {
           "name": "v0.1.0",
-          "main_url": "https://github.com/zindy/qupath-extension-fireparser/releases/download/v0.1.0/qupath-extension-fireparser-0.1.0-javadoc.jar",
+          "main_url": "https://github.com/zindy/qupath-extension-fireparser/releases/download/v0.1.0/qupath-extension-fireparser-0.1.0.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -74,7 +74,7 @@
       "releases": [
         {
           "name": "v0.1.1",
-          "main_url": "https://github.com/zindy/qupath-extension-mld/releases/download/v0.1.1/qupath-extension-mld-0.1.1-javadoc.jar",
+          "main_url": "https://github.com/zindy/qupath-extension-mld/releases/download/v0.1.1/qupath-extension-mld-0.1.1.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -95,7 +95,7 @@
       "releases": [
         {
           "name": "v0.1.1",
-          "main_url": "https://github.com/zindy/qupath-extension-ndpa/releases/download/v0.1.1/qupath-extension-ndpa-0.1.1-javadoc.jar",
+          "main_url": "https://github.com/zindy/qupath-extension-ndpa/releases/download/v0.1.1/qupath-extension-ndpa-0.1.1.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -137,7 +137,7 @@
       "releases": [
         {
           "name": "v0.1.0",
-          "main_url": "https://github.com/zindy/qupath-extension-project-metadata-editor/releases/download/v0.1.0/qupath-extension-project-metadata-editor-0.1.0-javadoc.jar",
+          "main_url": "https://github.com/zindy/qupath-extension-project-metadata-editor/releases/download/v0.1.0/qupath-extension-project-metadata-editor-0.1.0.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
