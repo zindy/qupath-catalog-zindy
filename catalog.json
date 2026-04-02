@@ -1,6 +1,6 @@
 {
   "name": "QuPath Zindy catalog",
-  "description": "Egor's catalog of weird and wonderful QuPath extensions, targeting QuPath v0.7.0+",
+  "description": "Egor's catalog of weird and wonderful extensions, targeting QuPath v0.7.0+",
   "extensions": [
     {
       "name": "Qupath Extension Bentofx",
