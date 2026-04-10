@@ -136,8 +136,8 @@
       "starred": false,
       "releases": [
         {
-          "name": "v0.1.0",
-          "main_url": "https://github.com/zindy/qupath-extension-project-metadata-editor/releases/download/v0.1.0/qupath-extension-project-metadata-editor-0.1.0.jar",
+          "name": "v0.2.0",
+          "main_url": "https://github.com/zindy/qupath-extension-project-metadata-editor/releases/download/v0.2.0/qupath-extension-project-metadata-editor-0.2.0-all.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
