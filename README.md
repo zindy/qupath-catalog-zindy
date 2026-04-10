@@ -33,7 +33,7 @@ An extension to import Visiopharm MLD annotations into QuPath.
 ### QuPath Project Metadata editor extension
 A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.2.0
 - **Repository**: https://github.com/zindy/qupath-extension-project-metadata-editor
 - **QuPath compatibility**: v0.7.0+
 
