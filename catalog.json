@@ -3,15 +3,15 @@
   "description": "Egor's catalog of weird and wonderful extensions, targeting QuPath v0.7.0+",
   "extensions": [
     {
-      "name": "Qupath Extension Bentofx",
-      "description": "Proof of concept BentoFX integration",
+      "name": "Qupath Extension Xgboost",
+      "description": "XGBoost object classifier for QuPath",
       "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-bentofx",
-      "starred": false,
+      "homepage": "https://github.com/zindy/qupath-extension-xgboost",
+      "starred": true,
       "releases": [
         {
-          "name": "v0.1.2",
-          "main_url": "https://github.com/zindy/qupath-extension-bentofx/releases/download/v0.1.2/qupath-extension-bentofx-0.1.2.jar",
+          "name": "v0.1.3",
+          "main_url": "https://github.com/zindy/qupath-extension-xgboost/releases/download/v0.1.3/qupath-extension-xgboost-0.1.3-all.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -24,15 +24,15 @@
       ]
     },
     {
-      "name": "Qupath Extension Fireparser",
-      "description": "Filename regex parser inspired by CellProfiler",
+      "name": "Qupath Extension Isolines",
+      "description": "Generate colour-coded vector isoline annotations from a QuPath density map, as an alternative to displaying it as a dense raster/colour heatmap overlay.",
       "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-fireparser",
-      "starred": false,
+      "homepage": "https://github.com/zindy/qupath-extension-isolines",
+      "starred": true,
       "releases": [
         {
           "name": "v0.1.0",
-          "main_url": "https://github.com/zindy/qupath-extension-fireparser/releases/download/v0.1.0/qupath-extension-fireparser-0.1.0.jar",
+          "main_url": "https://github.com/zindy/qupath-extension-isolines/releases/download/v0.1.0/qupath-extension-isolines-0.1.0.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -45,15 +45,15 @@
       ]
     },
     {
-      "name": "Qupath Extension Jinput",
-      "description": "jinput support for QuPath navigation (3Dconnexion SpaceMouse)",
+      "name": "Qupath Extension Project Metadata Editor",
+      "description": "A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.",
       "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-jinput",
-      "starred": false,
+      "homepage": "https://github.com/zindy/qupath-extension-project-metadata-editor",
+      "starred": true,
       "releases": [
         {
-          "name": "v0.3.4",
-          "main_url": "https://github.com/zindy/qupath-extension-jinput/releases/download/v0.3.4/qupath-extension-jinput-0.3.4.jar",
+          "name": "v0.2.0",
+          "main_url": "https://github.com/zindy/qupath-extension-project-metadata-editor/releases/download/v0.2.0/qupath-extension-project-metadata-editor-0.2.0-all.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -66,15 +66,15 @@
       ]
     },
     {
-      "name": "Qupath Extension Mld",
-      "description": "QuPath extension: qupath-extension-mld",
+      "name": "Qupath Extension Load Big GeoJSON",
+      "description": "QuPath extension to import very large GeoJSON files using a streaming parser, so memory usage stays bounded while features are loaded.",
       "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-mld",
+      "homepage": "https://github.com/zindy/qupath-extension-load-objects-geojson",
       "starred": false,
       "releases": [
         {
-          "name": "v0.1.1",
-          "main_url": "https://github.com/zindy/qupath-extension-mld/releases/download/v0.1.1/qupath-extension-mld-0.1.1.jar",
+          "name": "v0.2.2",
+          "main_url": "https://github.com/zindy/qupath-extension-load-objects-geojson/releases/download/v0.2.2/qupath-extension-load-objects-geojson-0.2.2.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -108,6 +108,48 @@
       ]
     },
     {
+      "name": "Qupath Extension Mld",
+      "description": "QuPath extension: qupath-extension-mld",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-mld",
+      "starred": false,
+      "releases": [
+        {
+          "name": "v0.1.1",
+          "main_url": "https://github.com/zindy/qupath-extension-mld/releases/download/v0.1.1/qupath-extension-mld-0.1.1.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Qupath Extension Jinput",
+      "description": "jinput support for QuPath navigation (3Dconnexion SpaceMouse)",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-jinput",
+      "starred": false,
+      "releases": [
+        {
+          "name": "v0.3.4",
+          "main_url": "https://github.com/zindy/qupath-extension-jinput/releases/download/v0.3.4/qupath-extension-jinput-0.3.4.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
       "name": "Qupath Extension Ocr",
       "description": "QuPath extension for optical character recognition (OCR) on slide labels via Tess4J / Tesseract",
       "author": "zindy",
@@ -129,15 +171,15 @@
       ]
     },
     {
-      "name": "Qupath Extension Project Metadata Editor",
-      "description": "A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.",
+      "name": "Qupath Extension NDPI",
+      "description": "QuPath extension to export images directly to the Hamamatsu NDPi format using Hamamatsu's native NDPWrite.dll SDK.",
       "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-project-metadata-editor",
+      "homepage": "https://github.com/zindy/qupath-extension-ndpi",
       "starred": false,
       "releases": [
         {
           "name": "v0.2.0",
-          "main_url": "https://github.com/zindy/qupath-extension-project-metadata-editor/releases/download/v0.2.0/qupath-extension-project-metadata-editor-0.2.0-all.jar",
+          "main_url": "https://github.com/zindy/qupath-extension-ndpi/releases/download/v0.2.0/qupath-extension-ndpi-0.2.0.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
@@ -150,15 +192,57 @@
       ]
     },
     {
-      "name": "Qupath Extension Xgboost",
-      "description": "XGBoost object classifier for QuPath",
+      "name": "Qupath Extension Points dialog",
+      "description": "A QuPath v0.8.x extension that replaces the built-in points/counting dialog with one that lets you expand each point annotation.",
       "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-xgboost",
+      "homepage": "https://github.com/zindy/qupath-extension-points-dialog",
       "starred": false,
       "releases": [
         {
-          "name": "v0.1.3",
-          "main_url": "https://github.com/zindy/qupath-extension-xgboost/releases/download/v0.1.3/qupath-extension-xgboost-0.1.3-all.jar",
+          "name": "v0.1.0",
+          "main_url": "https://github.com/zindy/qupath-extension-points-dialog/releases/download/v0.1.0/qupath-extension-points-dialog-0.1.0.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.8.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Qupath Extension Bentofx",
+      "description": "Proof of concept BentoFX integration",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-bentofx",
+      "starred": false,
+      "releases": [
+        {
+          "name": "v0.1.2",
+          "main_url": "https://github.com/zindy/qupath-extension-bentofx/releases/download/v0.1.2/qupath-extension-bentofx-0.1.2.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Qupath Extension Fireparser",
+      "description": "Filename regex parser inspired by CellProfiler",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-fireparser",
+      "starred": false,
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/zindy/qupath-extension-fireparser/releases/download/v0.1.0/qupath-extension-fireparser-0.1.0.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
