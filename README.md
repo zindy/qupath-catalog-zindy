@@ -14,6 +14,37 @@ XGBoost object classifier for QuPath.
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/xgboost-extension-for-object-classification-qupath-0-7/119571
 
+### QuPath Isolines extension
+Generate colour-coded vector isoline annotations from a QuPath density map, as an alternative to displaying it as a dense raster/colour heatmap overlay.
+
+- **Latest version**: v0.1.1
+- **Repository**: https://github.com/zindy/qupath-extension-isolines
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/isolines-isocontours-as-well-as-dense-heatmaps/122301/2
+
+### QuPath Pipeline extension
+Extension for running a collection of project scripts as a pipeline.
+
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-pipeline
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/splitting-a-qupath-groovy-script-across-multiple-files/61387
+
+### QuPath Project Metadata editor extension
+A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.
+
+- **Latest version**: v0.2.0
+- **Repository**: https://github.com/zindy/qupath-extension-project-metadata-editor
+- **QuPath compatibility**: v0.7.0+
+
+### Qupath Extension for Loading Big GeoJSON
+QuPath extension to import very large GeoJSON files using a streaming parser, so memory usage stays bounded while features are loaded.
+
+- **Latest version**: v0.2.2
+- **Repository**: https://github.com/zindy/qupath-extension-load-objects-geojson
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/splitting-a-qupath-groovy-script-across-multiple-files/61387
+
 ### QuPath NDPA extension
 Extension to import and export Hamamatsu annotations between NDP.View and QuPath.
 
@@ -30,20 +61,12 @@ An extension to import Visiopharm MLD annotations into QuPath.
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-extension-for-importing-visiopharm-mld-files-into-qupath-both-rois-labels/118475
 
-### QuPath Project Metadata editor extension
-A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.
+### QuPath JInput extension (experimental)
+This extension adds joysticks and spacemouse navigation to QuPath via JInput. It was originally written by @petebankhead.
 
-- **Latest version**: v0.2.0
-- **Repository**: https://github.com/zindy/qupath-extension-project-metadata-editor
+- **Latest version**: v0.3.4
+- **Repository**: https://github.com/zindy/qupath-extension-jinput
 - **QuPath compatibility**: v0.7.0+
-
-### QuPath Filename Regex extension
-Filename regex parser inspired by CellProfiler.
-
-- **Latest version**: v0.1.0
-- **Repository**: https://github.com/zindy/qupath-extension-fireparser
-- **QuPath compatibility**: v0.7.0+
-- **Discussion**: https://forum.image.sc/t/qupath-metadata/80733/6
 
 ### QuPath OCR extension
 QuPath extension for optical character recognition (OCR) on slide labels via Tess4J / Tesseract.
@@ -53,6 +76,22 @@ QuPath extension for optical character recognition (OCR) on slide labels via Tes
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/how-to-read-tissue-slides-label-using-tesseract/114820/4
   
+### QuPath NDPI extension
+QuPath extension to export images directly to the Hamamatsu NDPi format using Hamamatsu's native NDPWrite.dll SDK.
+
+- **Latest version**: v0.2.0
+- **Repository**: https://github.com/zindy/qupath-extension-ndpi
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/converting-an-svs-image-into-ndpi-image/106660/6
+
+### QuPath Points dialog extension (Experimental v0.8+ extension)
+A QuPath v0.8.x extension that replaces the built-in points/counting dialog with one that lets you expand each point annotation.
+
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-points-dialog
+- **QuPath compatibility**: v0.8.0+
+- **Discussion**: https://forum.image.sc/t/treeview-in-the-point-annotations-dialog-ux-experiment/122220
+
 ### QuPath BentoFX extension (experimental)
 This extension converts QuPath's dialogs and frames into dockable panels. It is very much a proof of concept: Not everything works as expected, so use it at your own risk but I would love to hear back from you if you encounter any issues!
 
@@ -61,12 +100,14 @@ This extension converts QuPath's dialogs and frames into dockable panels. It is 
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-gui-with-dockable-panels-experimental-proof-of-concept/115582
 
-### QuPath JInput extension (experimental)
-This extension adds joysticks and spacemouse navigation to QuPath via JInput. It was originally written by @petebankhead.
+### QuPath Filename Regex extension (obsolete)
+Filename regex parser inspired by CellProfiler. 
+**Obsolete:** I added this functionality to my project metadata editor.
 
-- **Latest version**: v0.3.4
-- **Repository**: https://github.com/zindy/qupath-extension-jinput
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-fireparser
 - **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/qupath-metadata/80733/6
 
 ## Installation
 
