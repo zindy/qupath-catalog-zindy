@@ -30,6 +30,14 @@ Extension for running a collection of project scripts as a pipeline.
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/splitting-a-qupath-groovy-script-across-multiple-files/61387
 
+### QuPath Child stats extension
+An extension to aggregate child measurements (cells / detections / tiles) into their parent annotation
+
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-childstats
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/an-extension-to-aggregate-child-measurements-cells-detections-tiles-into-their-parent-annotation/122524
+
 ### QuPath Project Metadata editor extension
 A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.
 

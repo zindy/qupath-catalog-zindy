@@ -66,8 +66,29 @@
       ]
     },
     {
-      "name": "Qupath Extension Project Metadata Editor",
-      "description": "A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.",
+      "name": "qupath extension child stats",
+      "description": "An extension to aggregate child measurements (cells / detections / tiles) into their parent annotation",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-childstats",
+      "starred": true,
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/zindy/qupath-extension-childstats/releases/download/v0.1.0/qupath-extension-childstats-0.1.0.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "qupath extension project metadata editor",
+      "description": "a qupath extension for viewing and editing project metadata, extracted from qupath core to allow independent development and release.",
       "author": "zindy",
       "homepage": "https://github.com/zindy/qupath-extension-project-metadata-editor",
       "starred": true,
