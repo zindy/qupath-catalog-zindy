@@ -33,7 +33,7 @@ Extension for running a collection of project scripts as a pipeline.
 ### QuPath Child stats extension
 An extension to aggregate child measurements (cells / detections / tiles) into their parent annotation
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.1
 - **Repository**: https://github.com/zindy/qupath-extension-childstats
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/an-extension-to-aggregate-child-measurements-cells-detections-tiles-into-their-parent-annotation/122524

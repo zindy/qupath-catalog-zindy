@@ -73,8 +73,8 @@
       "starred": true,
       "releases": [
         {
-          "name": "v0.1.0",
-          "main_url": "https://github.com/zindy/qupath-extension-childstats/releases/download/v0.1.0/qupath-extension-childstats-0.1.0.jar",
+          "name": "v0.1.1",
+          "main_url": "https://github.com/zindy/qupath-extension-childstats/releases/download/v0.1.1/qupath-extension-childstats-0.1.1.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
