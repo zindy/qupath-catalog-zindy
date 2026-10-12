@@ -48,7 +48,7 @@ A QuPath extension for viewing and editing project metadata, extracted from QuPa
 ### QuPath BentoFX extension (ready for testing)
 This extension converts QuPath's dialogs and frames into dockable panels. I think it came a long way in the last few releases and is very much usable and reversible (without having to close QuPath) in case something goes wrong. Still, the usual warning applies, use it at your own risk but I would love to hear back from you if you encounter any issues!
 
-- **Latest version**: v0.1.4
+- **Latest version**: v0.1.5
 - **Repository**: https://github.com/zindy/qupath-extension-bentofx
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-gui-with-dockable-panels-experimental-proof-of-concept/115582

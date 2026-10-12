@@ -115,8 +115,8 @@
       "starred": true,
       "releases": [
         {
-          "name": "v0.1.4",
-          "main_url": "https://github.com/zindy/qupath-extension-bentofx/releases/download/v0.1.4/qupath-extension-bentofx-0.1.4.jar",
+          "name": "v0.1.5",
+          "main_url": "https://github.com/zindy/qupath-extension-bentofx/releases/download/v0.1.5/qupath-extension-bentofx-0.1.5.jar",
           "required_dependency_urls": null,
           "optional_dependency_urls": null,
           "javadoc_urls": null,
