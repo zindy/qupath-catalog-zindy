@@ -108,6 +108,27 @@
       ]
     },
     {
+      "name": "Qupath Extension Bentofx",
+      "description": "QuPath dockable interface using the BentoFX library",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-bentofx",
+      "starred": true,
+      "releases": [
+        {
+          "name": "v0.1.4",
+          "main_url": "https://github.com/zindy/qupath-extension-bentofx/releases/download/v0.1.4/qupath-extension-bentofx-0.1.4.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
       "name": "Qupath Extension Load Big GeoJSON",
       "description": "QuPath extension to import very large GeoJSON files using a streaming parser, so memory usage stays bounded while features are loaded.",
       "author": "zindy",
@@ -248,27 +269,6 @@
           "javadoc_urls": null,
           "version_range": {
             "min": "v0.8.0",
-            "max": null,
-            "excludes": null
-          }
-        }
-      ]
-    },
-    {
-      "name": "Qupath Extension Bentofx",
-      "description": "Proof of concept BentoFX integration",
-      "author": "zindy",
-      "homepage": "https://github.com/zindy/qupath-extension-bentofx",
-      "starred": false,
-      "releases": [
-        {
-          "name": "v0.1.2",
-          "main_url": "https://github.com/zindy/qupath-extension-bentofx/releases/download/v0.1.2/qupath-extension-bentofx-0.1.2.jar",
-          "required_dependency_urls": null,
-          "optional_dependency_urls": null,
-          "javadoc_urls": null,
-          "version_range": {
-            "min": "v0.7.0",
             "max": null,
             "excludes": null
           }

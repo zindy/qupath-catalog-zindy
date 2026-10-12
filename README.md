@@ -45,6 +45,14 @@ A QuPath extension for viewing and editing project metadata, extracted from QuPa
 - **Repository**: https://github.com/zindy/qupath-extension-project-metadata-editor
 - **QuPath compatibility**: v0.7.0+
 
+### QuPath BentoFX extension (ready for testing)
+This extension converts QuPath's dialogs and frames into dockable panels. I think it came a long way in the last few releases and is very much usable and reversible (without having to close QuPath) in case something goes wrong. Still, the usual warning applies, use it at your own risk but I would love to hear back from you if you encounter any issues!
+
+- **Latest version**: v0.1.4
+- **Repository**: https://github.com/zindy/qupath-extension-bentofx
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/qupath-gui-with-dockable-panels-experimental-proof-of-concept/115582
+
 ### Qupath Extension for Loading Big GeoJSON
 QuPath extension to import very large GeoJSON files using a streaming parser, so memory usage stays bounded while features are loaded.
 
@@ -99,14 +107,6 @@ A QuPath v0.8.x extension that replaces the built-in points/counting dialog with
 - **Repository**: https://github.com/zindy/qupath-extension-points-dialog
 - **QuPath compatibility**: v0.8.0+
 - **Discussion**: https://forum.image.sc/t/treeview-in-the-point-annotations-dialog-ux-experiment/122220
-
-### QuPath BentoFX extension (experimental)
-This extension converts QuPath's dialogs and frames into dockable panels. It is very much a proof of concept: Not everything works as expected, so use it at your own risk but I would love to hear back from you if you encounter any issues!
-
-- **Latest version**: v0.1.2
-- **Repository**: https://github.com/zindy/qupath-extension-bentofx
-- **QuPath compatibility**: v0.7.0+
-- **Discussion**: https://forum.image.sc/t/qupath-gui-with-dockable-panels-experimental-proof-of-concept/115582
 
 ### QuPath Filename Regex extension (obsolete)
 Filename regex parser inspired by CellProfiler. 
