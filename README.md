@@ -25,7 +25,7 @@ Generate colour-coded vector isoline annotations from a QuPath density map, as a
 ### QuPath Pipeline extension
 Extension for running a collection of project scripts as a pipeline.
 
-- **Latest version**: v0.1.0
+- **Latest version**: v0.1.1
 - **Repository**: https://github.com/zindy/qupath-extension-pipeline
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/splitting-a-qupath-groovy-script-across-multiple-files/61387
@@ -38,6 +38,14 @@ An extension to aggregate child measurements (cells / detections / tiles) into t
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/an-extension-to-aggregate-child-measurements-cells-detections-tiles-into-their-parent-annotation/122524
 
+### QuPath Cytomine client extension
+An extension to connect QuPath to a Cytomine server to fetch image tiles and sync annotations and measurements
+
+- **Latest version**: v0.1.1
+- **Repository**: https://github.com/zindy/qupath-extension-cytomine
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/qupath-cytomine-bridge/122871
+
 ### QuPath Project Metadata editor extension
 A QuPath extension for viewing and editing project metadata, extracted from QuPath core to allow independent development and release.
 
@@ -48,7 +56,7 @@ A QuPath extension for viewing and editing project metadata, extracted from QuPa
 ### QuPath BentoFX extension (ready for testing)
 This extension converts QuPath's dialogs and frames into dockable panels. I think it came a long way in the last few releases and is very much usable and reversible (without having to close QuPath) in case something goes wrong. Still, the usual warning applies, use it at your own risk but I would love to hear back from you if you encounter any issues!
 
-- **Latest version**: v0.1.5
+- **Latest version**: v0.2.0
 - **Repository**: https://github.com/zindy/qupath-extension-bentofx
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/qupath-gui-with-dockable-panels-experimental-proof-of-concept/115582
