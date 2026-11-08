@@ -22,6 +22,13 @@ Generate colour-coded vector isoline annotations from a QuPath density map, as a
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/isolines-isocontours-as-well-as-dense-heatmaps/122301/2
 
+### QuPath upscale extension
+Extension for upscaling images on the fly with OpenCV's dnn_superres neural networks (EDSR, ESPCN, FSRCNN, LapSRN). Plain bilinear, bicubic or Lanczos interpolation is built in as a control.
+
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-upscale
+- **QuPath compatibility**: v0.7.0+
+
 ### QuPath Pipeline extension
 Extension for running a collection of project scripts as a pipeline.
 
