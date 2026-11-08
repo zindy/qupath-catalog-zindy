@@ -38,6 +38,22 @@ An extension to aggregate child measurements (cells / detections / tiles) into t
 - **QuPath compatibility**: v0.7.0+
 - **Discussion**: https://forum.image.sc/t/an-extension-to-aggregate-child-measurements-cells-detections-tiles-into-their-parent-annotation/122524
 
+### QuPath native KFBio formats reader extension
+QuPath extension for opening KFBio whole slide images directly: .kfb (brightfield) and .kfbf (fluorescence). No conversion step required.
+
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-kfbio
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/does-qupath-support-kfb-kfbio-format/40978/9
+
+### QuPath native SDPC formats reader extension
+An extension to add support for opening .sdpc whole slide images in QuPath (v0.7.0+). `.sdpc` is the slide format of the digital pathology scanners and viewer software from Shenzhen Shengqiang Technology Co., Ltd. (SQRAY, sold under the TEKSQRAY name; sqray.com).
+
+- **Latest version**: v0.1.0
+- **Repository**: https://github.com/zindy/qupath-extension-sdpc
+- **QuPath compatibility**: v0.7.0+
+- **Discussion**: https://forum.image.sc/t/inquiry-about-support-for-reading-sdpc-format-slides-in-qupath/88317
+
 ### QuPath Cytomine client extension
 An extension to connect QuPath to a Cytomine server to fetch image tiles and sync annotations and measurements
 

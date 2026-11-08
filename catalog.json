@@ -87,6 +87,49 @@
       ]
     },
     {
+      "name": "QuPath native KFBio formats reader extension",
+      "description": "An extension for opening KFBio whole slide images directly: .kfb (brightfield) and .kfbf (fluorescence). No conversion step required.",
+
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-kfbio",
+      "starred": false,
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/zindy/qupath-extension-kfbio/releases/download/v0.1.0/qupath-extension-kfbio-0.1.0.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "QuPath native SDPC formats reader extension",
+      "description": "An extension to add support for opening .sdpc whole slide images in QuPath (v0.7.0+). `.sdpc` is the slide format of the digital pathology scanners and viewer software from Shenzhen Shengqiang Technology Co., Ltd. (SQRAY, sold under the TEKSQRAY name; sqray.com).",
+      "author": "zindy",
+      "homepage": "https://github.com/zindy/qupath-extension-sdpc",
+      "starred": false,
+      "releases": [
+        {
+          "name": "v0.1.0",
+          "main_url": "https://github.com/zindy/qupath-extension-sdpc/releases/download/v0.1.0/qupath-extension-sdpc-0.1.0.jar",
+          "required_dependency_urls": null,
+          "optional_dependency_urls": null,
+          "javadoc_urls": null,
+          "version_range": {
+            "min": "v0.7.0",
+            "max": null,
+            "excludes": null
+          }
+        }
+      ]
+    },
+    {
       "name": "QuPath client for Cytomine servers",
       "description": "An extension to connect QuPath to a Cytomine server to fetch image tiles and sync annotations and measurements",
       "author": "zindy",
